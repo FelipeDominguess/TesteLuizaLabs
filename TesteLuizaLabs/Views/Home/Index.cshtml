@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h3>
+        Consulte os seus Clientes cadastrados na
+        sua Loja
+    </h3>
+    <h3>realize o cadastro de novos Cliente</h3>
+    <p>BLOCKED{}</p>
+    <table class="customer-table">
+        <thead>
+            <tr>
+                <th>Nome:</th>
+                <th>Email:</th>
+                <th>Telefone:</th>
+                <th>CPF ou CPNJ</th>
+                <th>Data de cadastro:</th>
+                <th>Isento:</th>
+                <th>Gênero:</th>
+                <th>Data de nascimento</th>
+                <th>Senha:</th>
+                <th>Confirmar a senha:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model.CustomerList)
+            {
+                <tr>
+                    <td>@customer.ID</td>
+                    <td>@customer.Name</td>
+                    <td>@customer.Email</td>
+                    <td>@customer.Phone</td>
+                    <td>@customer.CPF_CNPJ</td>
+                    <td>@customer.CreatedAt</td>
+                    <td>@customer.IsStateRegistrationExempted</td>
+                    <td>@customer.Gender</td>
+                    <td>@customer.DateOfBirth</td>
+                    <td>@customer.Password</td>
+                    <td>@customer.ConfirmPassword</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+</div>

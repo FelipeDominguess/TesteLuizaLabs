@@ -1,0 +1,9 @@
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.csproj.AssemblyReference.cache
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.GeneratedMSBuildEditorConfig.editorconfig
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.AssemblyInfoInputs.cache
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.AssemblyInfo.cs
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.csproj.CoreCompileInputs.cache
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.MvcApplicationPartsAssemblyInfo.cache
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.RazorAssemblyInfo.cache
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.RazorAssemblyInfo.cs
+F:\TesteLuizaLabs\obj\Debug\net8.0\TesteLuizaLabs.sourcelink.json
